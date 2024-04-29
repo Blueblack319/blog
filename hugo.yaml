@@ -1,0 +1,55 @@
+baseURL: https://example.com/
+languageCode: en-us
+title: John's Blog
+description: My little blog
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+timeout: 120
+
+minify:
+  minifyOutput: true
+
+params:
+  description: My little blog
+  homeInfoParams:
+    Title: Hi there
+    Content: |
+      Welcome to my blog and take a look around. Maybe you'll find something you'll like.
+      I like to write about a variety of topics but most posts are computer focused.
+      While I mainly write for myself, I hope that some of what I post will be useful
+      for others.      
+    defaultTheme: auto
+  socialIcons:
+    - name: github
+      url: "https://github.com/user-none/"
+    - name: linkedin 
+      url: "https://linkedin.com/in/john-schember/"
+    - name: email 
+      url: "mailto:john@nachtimwald.com"
+  disableSpecial1stPost: true
+  ShowToc: true
+  ShowCodeCopyButtons: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  comments: false
+
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 30
+
