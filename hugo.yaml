@@ -1,6 +1,6 @@
-baseURL: https://example.com/
+baseURL: https://blueblack319.github.io/
 languageCode: en-us
-title: John's Blog
+title: Hoon's Blog
 description: My little blog
 theme: PaperMod
 
@@ -25,11 +25,11 @@ params:
     defaultTheme: auto
   socialIcons:
     - name: github
-      url: "https://github.com/user-none/"
+      url: "https://github.com/blueblack319"
     - name: linkedin 
-      url: "https://linkedin.com/in/john-schember/"
+      url: "https://linkedin.com/in/"
     - name: email 
-      url: "mailto:john@nachtimwald.com"
+      url: "mailto:didwogns789@yonsei.ac.kr"
   disableSpecial1stPost: true
   ShowToc: true
   ShowCodeCopyButtons: true
